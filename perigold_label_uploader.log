@@ -1,0 +1,116 @@
+2026-11-13 10:09:26 [INFO] === Perigold Label Uploader Run Started ===
+2026-11-13 10:09:37 [INFO] Generating a NEW Wayfair Bearer Token...
+2026-11-13 10:09:37 [INFO] --> Successfully generated and cached new Wayfair token.
+2026-11-13 10:09:41 [INFO] Connecting to SFTP server '192.168.52.26'...
+2026-11-13 10:09:44 [INFO] Connected (version 2.0, client OpenSSH_9.6)
+2026-11-13 10:09:46 [INFO] Authentication (keyboard-interactive) successful!
+2026-11-13 10:09:47 [INFO] [chan 0] Opened sftp connection (server version 3)
+2026-11-13 10:10:04 [INFO] Found 1 unprocessed file(s).
+2026-11-13 10:10:07 [INFO] 
+--- Processing File: periordersmap_0006612471.csv ---
+2026-11-13 10:10:59 [INFO] Record -> SoapBox ID: 48479170 | PO Number: CS689733680
+2026-11-13 10:11:00 [INFO] Registering Perigold Order: CS689733680...
+2026-11-13 10:11:11 [INFO] --> SUCCESS: Order CS689733680 successfully registered with Wayfair.
+2026-11-13 10:12:56 [INFO] Downloading Shipping Label for PO: CS689733680...
+2026-11-13 10:13:08 [INFO] --> SUCCESS: Shipping Label downloaded (186028 bytes).
+2026-11-13 10:13:32 [INFO] Uploading Label to SoapBox (SoapBox ID: 48479170, File: Perigold_Label_CS689733680.pdf)...
+2026-11-13 10:13:33 [ERROR] --> FAILED to upload to SoapBox. HTTP 401: {"detail":"Authentication credentials were not provided."}
+2026-11-13 10:13:33 [WARNING] File 'periordersmap_0006612471.csv' encountered errors during processing and was NOT renamed.
+2026-11-13 10:13:33 [INFO] [chan 0] sftp session closed.
+2026-11-13 10:13:33 [INFO] === Perigold Label Uploader Run Ended ===
+
+2026-11-13 10:13:56 [INFO] === Perigold Label Uploader Run Started ===
+2026-11-13 10:13:58 [INFO] Using active cached Wayfair Bearer token.
+2026-11-13 10:13:58 [INFO] Connecting to SFTP server '192.168.52.26'...
+2026-11-13 10:13:59 [INFO] Connected (version 2.0, client OpenSSH_9.6)
+2026-11-13 10:14:01 [INFO] Authentication (keyboard-interactive) successful!
+2026-11-13 10:14:02 [INFO] [chan 0] Opened sftp connection (server version 3)
+2026-11-13 10:14:03 [INFO] Found 1 unprocessed file(s).
+2026-11-13 10:14:03 [INFO] 
+--- Processing File: periordersmap_0006612471.csv ---
+2026-11-13 10:14:04 [INFO] Record -> SoapBox ID: 48479170 | PO Number: CS689733680
+2026-11-13 10:14:04 [INFO] Registering Perigold Order: CS689733680...
+2026-11-13 10:14:15 [INFO] --> SUCCESS: Order CS689733680 successfully registered with Wayfair.
+2026-11-13 10:14:15 [INFO] Downloading Shipping Label for PO: CS689733680...
+2026-11-13 10:14:17 [INFO] --> SUCCESS: Shipping Label downloaded (186033 bytes).
+2026-11-13 10:14:17 [INFO] Uploading Label to SoapBox (SoapBox ID: 48479170, File: Perigold_Label_CS689733680.pdf)...
+2026-11-13 10:14:17 [ERROR] --> FAILED to upload to SoapBox. HTTP 401: {"detail":"Authentication credentials were not provided."}
+2026-11-13 10:14:17 [WARNING] File 'periordersmap_0006612471.csv' encountered errors during processing and was NOT renamed.
+2026-11-13 10:14:17 [INFO] [chan 0] sftp session closed.
+2026-11-13 10:16:39 [INFO] === Perigold Label Uploader Run Started ===
+2026-11-13 10:16:39 [INFO] Using active cached Wayfair Bearer token.
+2026-11-13 10:16:39 [INFO] Connecting to SFTP server '192.168.52.26'...
+2026-11-13 10:16:39 [INFO] Connected (version 2.0, client OpenSSH_9.6)
+2026-11-13 10:16:41 [INFO] Authentication (keyboard-interactive) successful!
+2026-11-13 10:16:42 [INFO] [chan 0] Opened sftp connection (server version 3)
+2026-11-13 10:16:43 [INFO] Found 1 unprocessed file(s).
+2026-11-13 10:16:43 [INFO] 
+--- Processing File: periordersmap_0006612471.csv ---
+2026-11-13 10:16:44 [INFO] Record -> SoapBox ID: 48479170 | PO Number: CS689733680
+2026-11-13 10:16:44 [INFO] Registering Perigold Order: CS689733680...
+2026-11-13 10:17:00 [INFO] --> SUCCESS: Order CS689733680 successfully registered with Wayfair.
+2026-11-13 10:17:00 [INFO] Downloading Shipping Label for PO: CS689733680...
+2026-11-13 10:17:02 [INFO] --> SUCCESS: Shipping Label downloaded (186041 bytes).
+2026-11-13 10:17:02 [INFO] Uploading Label to SoapBox (SoapBox ID: 48479170, File: Perigold_Label_CS689733680.pdf)...
+2026-11-13 10:17:03 [INFO] --> SUCCESS (HTTP 201): Label attached to SoapBox ID 48479170.
+2026-11-13 10:17:03 [INFO] Successfully processed and renamed SFTP file to: 'processed_periordersmap_0006612471.csv'
+2026-11-13 10:17:03 [INFO] [chan 0] sftp session closed.
+2026-11-13 10:17:03 [INFO] === Perigold Label Uploader Run Ended ===
+
+2026-11-13 10:34:17 [INFO] === Perigold Label Uploader Run Started ===
+2026-11-13 10:34:17 [INFO] Using active cached Wayfair Bearer token.
+2026-11-13 10:34:17 [INFO] Connecting to SFTP server '192.168.52.26'...
+2026-11-13 10:34:18 [INFO] Connected (version 2.0, client OpenSSH_9.6)
+2026-11-13 10:34:20 [INFO] Authentication (keyboard-interactive) successful!
+2026-11-13 10:34:20 [INFO] [chan 0] Opened sftp connection (server version 3)
+2026-11-13 10:34:22 [INFO] Found 1 unprocessed file(s).
+2026-11-13 10:34:22 [INFO] 
+--- Processing File: periordersmap_0006612471.csv ---
+2026-11-13 10:34:23 [INFO] Record -> SoapBox ID: 48479170 | PO Number: CS689733680
+2026-11-13 10:34:23 [INFO] Registering Perigold Order: CS689733680...
+2026-11-13 10:35:23 [ERROR] --> FAILED to register Order CS689733680. HTTP 503: 
+
+2026-11-13 10:35:23 [WARNING] File 'periordersmap_0006612471.csv' encountered errors during processing and was NOT renamed.
+2026-11-13 10:35:23 [INFO] [chan 0] sftp session closed.
+2026-11-13 10:35:23 [INFO] === Perigold Label Uploader Run Ended ===
+
+2026-11-13 11:05:14 [INFO] === Perigold Label Uploader Run Started ===
+2026-11-13 11:05:14 [INFO] Using active cached Wayfair Bearer token.
+2026-11-13 11:05:14 [INFO] Connecting to SFTP server '192.168.52.26'...
+2026-11-13 11:05:14 [INFO] Connected (version 2.0, client OpenSSH_9.6)
+2026-11-13 11:05:16 [INFO] Authentication (keyboard-interactive) successful!
+2026-11-13 11:05:17 [INFO] [chan 0] Opened sftp connection (server version 3)
+2026-11-13 11:05:18 [INFO] Found 1 unprocessed file(s).
+2026-11-13 11:05:18 [INFO] 
+--- Processing File: periordersmap_0006612471.csv ---
+2026-11-13 11:05:19 [INFO] Record -> SoapBox ID: 48479170 | PO Number: CS689733680
+2026-11-13 11:05:19 [INFO] Registering Perigold Order: CS689733680...
+2026-11-13 11:05:31 [INFO] --> SUCCESS: Order CS689733680 successfully registered with Wayfair.
+2026-11-13 11:05:31 [INFO] Downloading Shipping Label for PO: CS689733680...
+2026-11-13 11:05:32 [INFO] --> SUCCESS: Shipping Label downloaded (186008 bytes).
+2026-11-13 11:05:32 [INFO] Uploading Label to SoapBox (SoapBox ID: 48479170, File: Perigold_Label_CS689733680.pdf)...
+2026-11-13 11:05:33 [ERROR] --> FAILED to upload to SoapBox. HTTP 400: {"category":["\"shipping_label\" is not a valid choice."]}
+2026-11-13 11:05:33 [WARNING] File 'periordersmap_0006612471.csv' encountered errors during processing and was NOT renamed.
+2026-11-13 11:05:33 [INFO] [chan 0] sftp session closed.
+2026-11-13 11:05:33 [INFO] === Perigold Label Uploader Run Ended ===
+
+2026-11-13 11:08:18 [INFO] === Perigold Label Uploader Run Started ===
+2026-11-13 11:08:18 [INFO] Using active cached Wayfair Bearer token.
+2026-11-13 11:08:18 [INFO] Connecting to SFTP server '192.168.52.26'...
+2026-11-13 11:08:19 [INFO] Connected (version 2.0, client OpenSSH_9.6)
+2026-11-13 11:08:20 [INFO] Authentication (keyboard-interactive) successful!
+2026-11-13 11:08:21 [INFO] [chan 0] Opened sftp connection (server version 3)
+2026-11-13 11:08:22 [INFO] Found 1 unprocessed file(s).
+2026-11-13 11:08:22 [INFO] 
+--- Processing File: periordersmap_0006612471.csv ---
+2026-11-13 11:08:23 [INFO] Record -> SoapBox ID: 48479170 | PO Number: CS689733680
+2026-11-13 11:08:23 [INFO] Registering Perigold Order: CS689733680...
+2026-11-13 11:08:35 [INFO] --> SUCCESS: Order CS689733680 successfully registered with Wayfair.
+2026-11-13 11:08:35 [INFO] Downloading Shipping Label for PO: CS689733680...
+2026-11-13 11:08:36 [INFO] --> SUCCESS: Shipping Label downloaded (186012 bytes).
+2026-11-13 11:08:36 [INFO] Uploading Label to SoapBox (SoapBox ID: 48479170, File: Perigold_Label_CS689733680.pdf)...
+2026-11-13 11:08:37 [INFO] --> SUCCESS (HTTP 201): Label attached to SoapBox ID 48479170.
+2026-11-13 11:08:37 [INFO] Successfully processed and renamed SFTP file to: 'processed_periordersmap_0006612471.csv'
+2026-11-13 11:08:37 [INFO] [chan 0] sftp session closed.
+2026-11-13 11:08:37 [INFO] === Perigold Label Uploader Run Ended ===
+
